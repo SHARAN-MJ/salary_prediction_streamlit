@@ -58,6 +58,33 @@ Each model was trained and tested on a global salary dataset, and evaluated usin
 ## 📁 Project Structure
 
 <img width="1024" height="1024" alt="Gemini_Generated_Image_nu8lpinu8lpinu8l" src="https://github.com/user-attachments/assets/59eb72d1-ebd7-4c45-95ee-b20091f94fc4" />
+```
+SALARY_PREDICTION_STREAMLIT/
+│
+├── salary_prediction_streamlit/       # Main project folder
+│   ├── __pycache__/                    # Cache for this folder
+│   │
+│   ├── assets/                         # UI assets and templates
+│   │   ├── animation.json              # Lottie animation file
+│   │   ├── job_titles.json             # Job title reference data
+│   │   └── template.csv                # Data template for download/upload
+│   │
+│   ├── data/                           # Dataset folder
+│   │   └── DataScience_salaries_2025.csv
+│   │
+│   ├── models/                         # Trained model files
+│   │   ├── encoders.pkl                # Label encoders
+│   │   ├── lr_model.pkl                # Linear Regression model
+│   │   ├── meta_model.pkl              # Stacking meta-learner
+│   │   ├── tree_model.pkl              # Decision Tree model
+│   │   └── xgb_model.pkl               # XGBoost model
+│   │
+│   ├── app.py                          # Streamlit web application
+│   ├── train_model.py                  # ML model training script
+│   ├── requirements.txt                # Python dependencies
+│   ├── text.txt                        # Possibly temp notes or logs
+│   └── README.md                       # Project documentation
+```
 
 
 ---
