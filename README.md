@@ -57,7 +57,6 @@ Each model was trained and tested on a global salary dataset, and evaluated usin
 
 ## 📁 Project Structure
 
-<img width="1024" height="1024" alt="Gemini_Generated_Image_nu8lpinu8lpinu8l" src="https://github.com/user-attachments/assets/59eb72d1-ebd7-4c45-95ee-b20091f94fc4" />
 ```
 SALARY_PREDICTION_STREAMLIT/
 │
